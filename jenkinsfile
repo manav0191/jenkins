@@ -1,0 +1,19 @@
+pipeline{
+    agent any
+    stages{
+        stage("UAT"){
+            steps{
+            echo "This is a UAT stage"
+            }
+        
+        }
+        stage("Prod"){
+            steps{
+            echo "This is a Prod stage"
+            }
+        
+        }
+
+    }
+
+}
