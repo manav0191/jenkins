@@ -19,7 +19,7 @@ pipeline{
         }
         stage("test"){
             steps{
-            echo "This is a Prod stage"
+            echo "This is a Test stage"
             }
         
         }
