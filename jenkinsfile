@@ -17,6 +17,13 @@ pipeline{
             }
         
         }
+        stage("test"){
+            steps{
+            echo "This is a Prod stage"
+            }
+        
+        }
+
 
     }
 
