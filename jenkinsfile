@@ -1,3 +1,7 @@
+currentBuild.displayName = "mysamplebuild"+currentBuild.number
+
+
+
 pipeline{
     agent any
     stages{
